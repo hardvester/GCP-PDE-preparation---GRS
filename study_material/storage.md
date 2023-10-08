@@ -209,7 +209,7 @@ Refer to this [link](https://cloud.google.com/bigquery/docs/introduction) for do
 - The data should be denormalized
 - Denormalizing in BigQuery can be done with **nested and repeated columns**
 - Security can be applied at a **project** level or **dataset** or at **table** level.
-- _Authorized views_ allows to share query results without giving access to the underlying data
+- _Authorized views_ allows to share query results without giving access to the underlying data. Auth. view can either provide for example region specific data to a user or allows to query data by the user and hiding from the user sensitive columns.
 - Caching time = 24 hrs
 - No prices from data fetched from cache.
 - Can directly run query on cloud storage. No need for dataflow.
