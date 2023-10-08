@@ -231,7 +231,6 @@ Refer to this [link](https://cloud.google.com/bigquery/docs/introduction) for do
 <p>
 
 - Dividing a table into **segments** to make it easier to manage and query data. This saves cost and time. 
-- Partition is nothing but a newly created table. 
 - You can partition on hourly or daily.
 - Once table is created, you cannot change it partitioned
 
