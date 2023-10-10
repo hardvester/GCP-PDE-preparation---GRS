@@ -50,7 +50,7 @@ Limiting the information captured by model to prevent overfitting.
 - Fits too well with the training data
 - When the model performs great on the input(training) data but poorly on the test data
 - Correction for overfitting: 
-        - Regularization, which limits the amount of data captured.
+        - Regularization, which limits the amount of data captured. The higher the degree of the regularization, the more you can prevent overfitting.
 
 ### Underfitting
 - When the model performs poorly on the input(training) data but great on the test data. 
